@@ -31,6 +31,9 @@ button:hover {
   background-color: black;
 }
 #visor {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   width: 207px;
   background-color: white;
   height: 30px;

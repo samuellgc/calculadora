@@ -10,12 +10,7 @@ function insert(num)
 }
 function clean()
 {
-  document.getElementById('visor').innerHTML = "";
-}
-function back()
-{
-  var resultado = document.getElementById('visor').innerHTML;
-  document.getElementById('visor').innerHTML = resultado.substring(0, resultado.lenght -1);
+  document.getElementById('visor').innerHTML = "0";
 }
 function calcular()
 {
